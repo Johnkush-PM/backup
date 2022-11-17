@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{77E89640-2DE5-4EFA-942D-E76E108075A6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{84DBC3A1-DB60-49C8-9AA8-A8CCF0402C5E}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{161CFF70-19F7-48D4-AB2C-5428BA5C1324}">
+								<Image FileName="-1881558061" Left="0" Top="0" Right="1366" Bottom="768" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{483EAD2A-D960-4A24-A877-417F69E3FF78}" ExtendedFind="True">
+										<Image FileName="-1881558061" Left="0" Top="0" Right="1366" Bottom="768" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{B97880F9-5042-45CF-BC1B-97CC7821AC22}">
+												<Image FileName="-1881558061" Left="0" Top="0" Right="1366" Bottom="768" />
+												<TypeInfo Item0="{39FE5809-E3C5-4373-B217-7E3AB7C2BDF4}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Orders" Key="{9FCAE77F-D2D3-48D3-B6A8-05314FFF608E}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{4595B3AB-8007-41DD-BB87-580111F668B6}">
+								<Image FileName="1193082464" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{818EB42C-8BC6-415C-8232-569004BB82F3}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="OrderForm" Key="{71AB100F-7057-4F27-8F0E-923EE42F087F}">
+								<Image FileName="-1823636720" Left="0" Top="0" Right="488" Bottom="478" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{6B89E3A3-BB46-4934-80B2-1A2B38C8D2ED}">
+										<Image FileName="-1823636720" Left="11" Top="34" Right="475" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{5AD0B234-A18F-4FC8-9DF1-D517B9F8C679}">
+												<Image FileName="-1823636720" Left="115" Top="194" Right="467" Bottom="214" />
+												<TypeInfo Item0="{6710020E-08B3-44DE-BC96-AB71A009F887}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="AE" Key="{451A1CEC-CD8D-4859-AA1F-18D8534FC06E}">
+												<Image FileName="797309217" Left="115" Top="338" Right="243" Bottom="362" />
+												<TypeInfo Item0="{5C1F9183-A561-497C-AF78-11B06934E055}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="AE" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{75881A46-8CC4-42C4-97DB-B0A23ADE1D1A}">
+										<Image FileName="1657877493" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{5C1F9183-A561-497C-AF78-11B06934E055}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{8899268B-7EC7-4421-9739-EF4FD89EB5F5}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{CFD54288-F500-4E4D-9A7F-06A203FDFFFE}">
+								<Image FileName="-1354655533" Left="0" Top="71" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{76B6F36D-BE94-4354-B9EC-A5DDAD7A2766}">
+										<Image FileName="-1354655533" Left="0" Top="71" Right="1349" Bottom="7333" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="form" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="headerPLtHeader" Key="{547AA8DF-2217-4E1D-BF59-5673D1C794A2}">
+												<Image FileName="-1354655533" Left="0" Top="71" Right="0" Bottom="71" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Header" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="p_lt_Header" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelProducts" Key="{71805A13-CDF1-480C-9D80-C9B8FD30B4EE}">
+														<Image FileName="-1354655533" Left="0" Top="71" Right="1349" Bottom="136" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelProducts" Key="{1F5F78A0-7D44-4EC4-AC81-95A72AEBBE7C}">
+																<Image FileName="-1354655533" Left="90" Top="71" Right="1260" Bottom="136" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="navProducts" Key="{1070BF75-8FEA-40E0-B3BB-0FAFF4A1B61D}">
+																		<Image FileName="-1354655533" Left="105" Top="71" Right="1245" Bottom="136" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Nav" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="linkProducts" Key="{C8792598-967E-4E15-BDCA-1A50C45B1290}">
+																				<Image FileName="-1354655533" Left="418" Top="71" Right="503" Bottom="136" />
+																				<TypeInfo Item0="{27B51F61-B721-4914-B0EA-E84AA6036414}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Link" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Products" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="panelTestAutomation" Key="{C8036891-B77A-4851-804D-E1C35A7B9744}">
+																				<Image FileName="-908380965" Left="127" Top="136" Right="1222" Bottom="634" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelTestAutomation" Key="{1A77348A-EDF2-47C1-9EF8-9DD74A490ECF}" ExtendedFind="True">
+																						<Image FileName="-908380965" Left="127" Top="136" Right="1222" Bottom="634" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelTestAutomation" Key="{4A1E353A-0CE1-474C-8033-E657825D1052}" ExtendedFind="True">
+																								<Image FileName="-908380965" Left="147" Top="151" Right="1202" Bottom="634" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelTestAutomation" Key="{410CA4C7-373B-4623-B27D-6731A3B9BC6A}" ExtendedFind="True">
+																										<Image FileName="-908380965" Left="162" Top="151" Right="1187" Bottom="634" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelTestAutomation" Key="{592DF521-A890-4074-A8FF-F182AC037420}" ExtendedFind="True">
+																												<Image FileName="-908380965" Left="147" Top="151" Right="1202" Bottom="634" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panelApiLifecycle" Key="{F1EE19AE-7C4B-4268-9801-026D31D863CF}">
+																														<Image FileName="-908380965" Left="499" Top="151" Right="851" Bottom="634" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="1" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="linkReadyapiautomatedApiTestingP" Key="{903CFBE8-AD69-453F-8085-BF0167FA78EA}" ExtendedFind="True">
+																																<Image FileName="-908380965" Left="519" Top="264" Right="831" Bottom="310" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Link" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="textnodeReadyapi" Key="{794CA404-2DF5-440E-A1F0-2672EBA79878}" ExtendedFind="True">
+																																		<Image FileName="-908380965" Left="554" Top="264" Right="831" Bottom="290" />
+																																		<TypeInfo Item0="{FBDA1D8B-7C3E-4E69-AF95-72EBCD2486FF}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="TextNode" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="ReadyAPI" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{4FCE4509-F7F7-4ED1-A354-0B48C6587208}">
+								<Image FileName="-889911975" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{818EB42C-8BC6-415C-8232-569004BB82F3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{84DBC3A1-DB60-49C8-9AA8-A8CCF0402C5E}">
+			<Child Name="wndProgman" Owner="{161CFF70-19F7-48D4-AB2C-5428BA5C1324}">
+				<Child Name="SHELLDLL_DefView" Owner="{483EAD2A-D960-4A24-A877-417F69E3FF78}">
+					<Child Name="FolderView" Owner="{B97880F9-5042-45CF-BC1B-97CC7821AC22}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Orders" Owner="{9FCAE77F-D2D3-48D3-B6A8-05314FFF608E}">
+			<Child Name="MainForm" Owner="{4595B3AB-8007-41DD-BB87-580111F668B6}" />
+			<Child Name="OrderForm" Owner="{71AB100F-7057-4F27-8F0E-923EE42F087F}">
+				<Child Name="Group" Owner="{6B89E3A3-BB46-4934-80B2-1A2B38C8D2ED}">
+					<Child Name="Customer" Owner="{5AD0B234-A18F-4FC8-9DF1-D517B9F8C679}" />
+					<Child Name="AE" Owner="{451A1CEC-CD8D-4859-AA1F-18D8534FC06E}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{75881A46-8CC4-42C4-97DB-B0A23ADE1D1A}" />
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{8899268B-7EC7-4421-9739-EF4FD89EB5F5}">
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{CFD54288-F500-4E4D-9A7F-06A203FDFFFE}">
+				<Child Name="form" Owner="{76B6F36D-BE94-4354-B9EC-A5DDAD7A2766}">
+					<Child Name="headerPLtHeader" Owner="{547AA8DF-2217-4E1D-BF59-5673D1C794A2}">
+						<Child Name="navProducts" Owner="{1070BF75-8FEA-40E0-B3BB-0FAFF4A1B61D}">
+							<Child Name="linkProducts" Owner="{C8792598-967E-4E15-BDCA-1A50C45B1290}" />
+							<Child Name="linkReadyapiautomatedApiTestingP" Owner="{903CFBE8-AD69-453F-8085-BF0167FA78EA}">
+								<Child Name="textnodeReadyapi" Owner="{794CA404-2DF5-440E-A1F0-2672EBA79878}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{4FCE4509-F7F7-4ED1-A354-0B48C6587208}" />
+		</Child>
+	</LogicalNodes>
+</Root>
